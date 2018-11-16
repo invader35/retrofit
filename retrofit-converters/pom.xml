@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.squareup.retrofit</groupId>
+    <groupId>com.squareup.retrofit2</groupId>
     <artifactId>parent</artifactId>
-    <version>1.5.2-SNAPSHOT</version>
+    <version>2.4.1-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -15,9 +15,15 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>gson</module>
+    <module>guava</module>
     <module>protobuf</module>
     <module>jackson</module>
+    <module>java8</module>
     <module>wire</module>
     <module>simplexml</module>
+    <module>scalars</module>
+    <module>moshi</module>
+    <module>jaxb</module>
   </modules>
 </project>
